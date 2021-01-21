@@ -55,8 +55,12 @@ NEED_KERNEL_MODULE_SYSTEM := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/sm8250
+TARGET_KERNEL_CONFIG := $(TARGET_DEVICE)_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
+TARGET_KERNEL_CLANG_VERSION := proton
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin
+KERNEL_SUPPORTS_LLVM_TOOLS := true
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
