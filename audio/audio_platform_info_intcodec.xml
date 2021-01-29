@@ -163,6 +163,9 @@
         <device name="SND_DEVICE_IN_VOICE_REC_HEADSET_MIC" acdb_id="23"/>
         <!-- yewenliang@MM.Audio, 2019/12/25, Change acdb-id for unprocessed usb-mic -->
         <device name="SND_DEVICE_IN_UNPROCESSED_USB_HEADSET_MIC" acdb_id="133"/>
+        <!-- zhangrun@MM.Audio, 2020/06/09, Change acdb-id for game -->
+        <device name="SND_DEVICE_IN_HANDSET_DMIC_AEC_NS_GAME" acdb_id="192"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO_GAME" acdb_id="190"/>
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" interface="RX_CDC_DMA_RX_0"/>
