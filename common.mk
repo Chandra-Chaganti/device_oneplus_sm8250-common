@@ -141,7 +141,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
     android.hardware.audio@2.0-service \
     android.hardware.bluetooth.audio@2.0-impl \
-    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.soundtrigger@2.2-impl \
     audio.bluetooth.default \
     audio.primary.kona \
     audio.r_submix.default \
