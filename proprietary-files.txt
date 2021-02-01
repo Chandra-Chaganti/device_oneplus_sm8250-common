@@ -4,6 +4,8 @@
 vendor/bin/adsprpcd
 vendor/etc/init/vendor.qti.adsprpc-service.rc
 vendor/lib/vendor.qti.hardware.dsp@1.0.so
+vendor/lib/libadsp_default_listener.so
+vendor/lib/libfastcvopt.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
@@ -51,6 +53,10 @@ system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio libraries
+system_ext/etc/permissions/audiosphere.xml
+-system_ext/framework/audiosphere.jar
+vendor/bin/audioflacapp
+vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libhaptic_effect.so
 vendor/lib/soundfx/libqcbassboost.so
@@ -66,7 +72,62 @@ vendor/lib/libadsprpc.so
 vendor/lib/libaudcal.so
 vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
+vendor/lib/libopf.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libdrc.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libtinycompress.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libdrc.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libtinycompress.so
 vendor/lib64/libadsprpc.so
+
+# Audio-Hardware
+system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
+vendor/bin/hw/android.hardware.audio.service
+vendor/etc/init/android.hardware.audio.service.rc
+vendor/lib/android.hardware.audio.common@6.0-util.so
+vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
+vendor/lib/hw/android.hardware.audio@6.0-impl.so
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.kona.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.usb.default.so
+vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+vendor/lib/soundfx/libqcompostprocbundle.so
+vendor/lib/soundfx/libqcomvisualizer.so
+vendor/lib/soundfx/libqcomvoiceprocessing.so
+vendor/lib/soundfx/libvolumelistener.so
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
+
+# Audio Config
+vendor/etc/a2dp_audio_policy_configuration.xml
+vendor/etc/audio_configs.xml
+vendor/etc/audio_configs_stock.xml
+vendor/etc/audio_effects.conf
+vendor/etc/audio_effects.xml
+vendor/etc/audio_io_policy.conf
+vendor/etc/audio_platform_info.xml
+vendor/etc/audio_platform_info_qrd.xml
+vendor/etc/audio_policy_configuration.xml
+vendor/etc/audio_policy_volumes.xml
+vendor/etc/audio_tuning_mixer.txt
+vendor/etc/bluetooth_qti_audio_policy_configuration.xml
+vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml
+vendor/etc/mixer_paths_cdp.xml
+vendor/etc/mixer_paths_qrd.xml
+vendor/etc/r_submix_audio_policy_configuration.xml
+vendor/etc/sound_trigger_mixer_paths_cdp.xml
+vendor/etc/sound_trigger_mixer_paths_qrd.xml
+vendor/etc/sound_trigger_platform_info.xml
+vendor/etc/usb_audio_policy_configuration.xml
 
 # Authsecret
 vendor/bin/hw/android.hardware.authsecret@1.0-service-qti
@@ -626,6 +687,7 @@ vendor/etc/msm_irqbalance.conf
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.kona.so
+vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
