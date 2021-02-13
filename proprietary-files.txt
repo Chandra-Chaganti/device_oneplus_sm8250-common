@@ -211,6 +211,27 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 
+# OP_Camera
+system/etc/permissions/com.oneplus.camera.service.xml|7ebd97a42322a77dde06e79120af99aaf74ddb6f
+system/etc/sysconfig/hiddenapi-package-whitelist-oneplus.xml|0fe50783cf73021ad28806a4d99a9c2ab5de8db4
+system/lib/libopcameralib-em.so|189a1423ea3c89e7914a90c1b6cd651f6511cc95
+system/lib64/libopcameralib-em.so|f6a876e05bb449d48e75b652d245325ac08b3207
+system_ext/etc/permissions/com.oneplus.camera.xml|8d5fb274ce5dae736d501e256f4bb86a21627f0e
+system_ext/etc/permissions/com.oneplus.gallery.xml|20b37a321b5b97b5efc5b5248183e256f273d398
+system_ext/lib/libCameraMDMHelper.so|8e5857aca75675c86491d1f1ffb03a9d354c4274
+system_ext/lib64/libCameraMDMHelper.so|72b573be881f46f8afe8406878e32ae9a9c322a5
+system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so|37a082be24aa4021c42faf70f615e66ad9b4175b
+system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so|d230909c9e1a52f9ba3e1857aa62d4c013c21222
+system_ext/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so|549242e83e404a403969b85dddd55eb2a1229380
+system_ext/lib64/vendor.oneplus.hardware.camera@1.0.so|7966ae02cba20df553177b21e666e2c0436a06c2
+-system/priv-app/CameraPicProcService/CameraPicProcService.apk;PRESIGNED|df92b1434a0c4bbdf783498913c11c2d5bfc6777
+-system/priv-app/OnePlusCameraService/OnePlusCameraService.apk;PRESIGNED|f3c02c404c5612a59c9a5e418d6317338bef1547
+-system_ext/framework/vendor.oneplus.hardware.CameraMDMHIDL-V1.0-java.jar|631c1bb587ff086a5c92e9a18d245c9c8f398a4b
+-system_ext/framework/vendor.oneplus.hardware.camera-V1.0-java.jar|4f4d2e6fcd7ea841fd39479a007bcf9350047e6c
+-system_ext/priv-app/OnePlusCamera/OnePlusCamera.apk;PRESIGNED|000b8985a879803232e6421306b195508e88fe1d
+-system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk;PRESIGNED|02814246535035a248e3f0d7f5bd583bee55cf43
+vendor/lib64/libapsjpeg.so
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
