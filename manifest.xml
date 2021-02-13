@@ -461,6 +461,7 @@
             <name>IPostProcService</name>
             <instance>camerapostprocservice</instance>
         </interface>
+        <fqname>@1.0::IPostProcService/camerapostprocservice</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.capabilityconfigstore</name>
