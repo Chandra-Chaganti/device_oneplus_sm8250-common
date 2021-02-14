@@ -230,6 +230,8 @@ system_ext/lib64/vendor.oneplus.hardware.camera@1.0.so|7966ae02cba20df553177b21e
 -system_ext/framework/vendor.oneplus.hardware.camera-V1.0-java.jar|4f4d2e6fcd7ea841fd39479a007bcf9350047e6c
 -system_ext/priv-app/OnePlusCamera/OnePlusCamera.apk;PRESIGNED|000b8985a879803232e6421306b195508e88fe1d
 -system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk;PRESIGNED|02814246535035a248e3f0d7f5bd583bee55cf43
+vendor/lib/libsnpe_dsp_domains_system.so
+vendor/lib/libsnpe_dsp_domains_v2_system.so
 vendor/lib64/libapsjpeg.so
 vendor/lib64/libapsexif.so
 vendor/lib64/libnpu.so
@@ -249,6 +251,7 @@ vendor/lib64/libsnpe_dsp_domains_v2.so
 vendor/lib64/libalCFRLV_dsp.so
 vendor/lib64/libalCFRLV.so
 vendor/lib64/libalCFR.so
+vendor/lib64/libalHexController.so
 
 # CDSP
 vendor/bin/cdsprpcd
