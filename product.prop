@@ -9,3 +9,11 @@ ro.sf.blurs_are_expensive=1
 
 # Google Assistant
 ro.opa.eligible_device=true
+
+# Device mask
+ro.build.fingerprint=google/coral/coral:11/RQ2A.210405.005/7181113:user/release-keys
+ro.product.brand=google
+ro.product.device=coral
+ro.product.manufacturer=Google
+ro.product.model=Pixel 4 XL
+ro.product.name=coral
